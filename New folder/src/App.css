@@ -1,0 +1,52 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 300px;
+  background-color: white;
+}
+
+.completed {
+  background-color: green;
+}
+
+.add-todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-todo-form input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.add-todo-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color:black;
+  color: Gold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}

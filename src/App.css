@@ -1,38 +1,62 @@
+/* Styles for the main container of the app */
 .App {
-  text-align: center;
+  text-align: center; 
+  margin-top: 50px; 
+  color: gold; 
+  background-color: black; 
+  padding: 20px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styles for the todo list container */
+.todo-list {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 20px; 
+  text-align: center; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styles for individual todo items */
+.todo-item {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
+  border: 1px solid gold; 
+  border-radius: 5px; 
+  width: 300px; 
+  background-color: black; 
+  color: gold; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styles for completed todo items */
+.completed {
+  background-color: green; 
 }
 
-.App-link {
-  color: #61dafb;
+/* Styles for the add todo form */
+.add-todo-form {
+  display: flex; 
+  justify-content: center; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styles for the input field in the add todo form */
+.add-todo-form input[type="text"] {
+  padding: 5px; 
+  border: 2px solid black; 
+  border-radius: 5px; 
+  width: 250px; 
+}
+
+/* Styles for the button in the add todo form */
+.add-todo-form button {
+  padding: 5px 10px; 
+  border: none; 
+  background-color: black; 
+  color: gold; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-left: 10px; 
+  border: 2px solid gold; 
 }
